@@ -13,7 +13,6 @@ async def start(_, message: Message):
 🇹🇷 Kullanım : /e Müzik Adı
 🇬🇧 Sorry I Only Work in Groups :(
 🇹🇷 Üzgünüm Sadece Gruplarda Çalışırım :(
-
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -22,7 +21,10 @@ async def start(_, message: Message):
                         "📣 Channel 📣", url="https://t.me/NetdBots"
                     ),
                     InlineKeyboardButton(
-                        "➕ Beni Bir Grupta Dene ➕", url="https://t.me/NetdMusicbot?startgroup=true"
+                        "🇬🇧 Add me to a Group 🇬🇧", url="https://t.me/NetdMusicbot?startgroup=true"
+                    ),
+                    InlineKeyboardButton(
+                        "🇹🇷 Beni Bir Grupta Dene 🇹🇷", url="https://t.me/NetdMusicbot?startgroup=true"
                     )
                 ]
             ]
