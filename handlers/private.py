@@ -18,15 +18,13 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📣 Channel 📣", url="https://t.me/NetdBots"
-                        ],
-                        [
+                        "📣 Channel", url="https://t.me/NetdBots"
+                    ),    
                     InlineKeyboardButton(
-                        "🇬🇧 Add me to a Group 🇬🇧", url="https://t.me/NetdMusicbot?startgroup=true"
-                        ],
-                        [
+                        "🇬🇧 Add to Group", url="https://t.me/NetdMusicbot?startgroup=true"
+                    ),    
                     InlineKeyboardButton(
-                        "🇹🇷 Beni Bir Grupta Dene 🇹🇷", url="https://t.me/NetdMusicbot?startgroup=true"
+                        "🇹🇷 Gruba Ekle", url="https://t.me/NetdMusicbot?startgroup=true"
                     )
                 ]
             ]
