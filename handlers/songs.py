@@ -18,7 +18,7 @@ async def a(client, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = await message.reply(f"👨🏽‍💻 **Arıyorum :** {query}")
+    m = await message.reply(f"👨🏽‍💻 **Searching :** {query}")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -55,7 +55,7 @@ async def a(client, message: Message):
         )
         print(str(e))
         return
-    await m.edit(f"🦸🏾 İndiriyorum... **Aranan :**{query}")
+    await m.edit(f"🦸🏾 Downloading... **Wanted :**{query}")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
