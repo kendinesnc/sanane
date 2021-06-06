@@ -16,7 +16,7 @@ Grubunuzun sesli sohbetinde müzik çalabilrim 😉
 🍀 /s - __Sesli Sohbet Müziğine Devam Et.__
 🍀 /a - __Sesli Sohbette Çalan Geçerli Müziği Atlar.__
 🍀 /b - __Sırayı temizler ve Sesli Sohbet Müziği'ni sona erdirir.__
-🍀 /bul - __Müziği bulup gruba gönderir. Örnek /bul tuğkan kusura bakma.__
+🍀 /i - __Müziği indirip gruba gönderir. Örnek /i tuğkan kusura bakma.__
         """,
         reply_markup=InlineKeyboardMarkup(
             [
