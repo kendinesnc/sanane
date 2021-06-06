@@ -40,7 +40,7 @@ async def devam(_, message: Message):
         await message.reply_text(f"**{BN} :-** 🥳 Devam Ediyor!")
 
 
-@Client.on_message(command("bitir") & other_filters)
+@Client.on_message(command("b") & other_filters)
 @errors
 @authorized_users_only
 async def bitir(_, message: Message):
