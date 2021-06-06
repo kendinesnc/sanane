@@ -9,23 +9,23 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""Ben **{bn}** !!
-Grubunuzun sesli sohbetinde müzik çalmanıza izin 😉
+Grubunuzun sesli sohbetinde müzik çalabilrim 😉
 Şu anda desteklediğim komutlar şunlardır:
-⚜️ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı üzerinden çalar.__
-⚜️ /durdur - __Sesli Sohbet Müziğini Duraklat.__
-⚜️ /devam - __Sesli Sohbet Müziğine Devam Et.__
-⚜️ /atla - __Sesli Sohbette Çalan Geçerli Müziği Atlar.__
-⚜️ /bitir - __Sırayı temizler ve Sesli Sohbet Müziği'ni sona erdirir.__
-⚜️ /bul - __Müziği bulup gruba gönderir. Örnek /bul tuğkan kusura bakma.__
+🍀 /o - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı üzerinden çalar.__
+🍀 /d - __Sesli Sohbet Müziğini Duraklat.__
+🍀 /s - __Sesli Sohbet Müziğine Devam Et.__
+🍀 /a - __Sesli Sohbette Çalan Geçerli Müziği Atlar.__
+🍀 /b - __Sırayı temizler ve Sesli Sohbet Müziği'ni sona erdirir.__
+🍀 /bul - __Müziği bulup gruba gönderir. Örnek /bul tuğkan kusura bakma.__
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Grup 💬", url="https://t.me/Saygisizlar"
+                        "Sahip 💬", url="https://t.me/Azerbesk"
                     ),
                     InlineKeyboardButton(
-                        "Kanal 📣", url="https://t.me/SaygisizlarMusic"
+                        "Kanal 📣", url="https://t.me/KaybedenlerOrkestrasi"
                     )
                 ]
             ]
