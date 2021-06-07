@@ -24,7 +24,7 @@ async def oynat(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**{bn} :-** 😕 Ses Dosyası Uzun {DURATION_LIMIT} minute(s) izin verilmez!\n🤐 Sağlanan ses, {audio.duration / 60} minute(s)"
+                f"**{bn} :** ⛑ Hata ! Ses Dosyası 10 Dakikadan Uzun Olmamalı"
             )
 
         file_name = get_file_name(audio)
