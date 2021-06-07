@@ -38,7 +38,7 @@ async def oynat(_, message: Message):
         return await message.reply_text(f"**{bn} :-** 🙄 Bana oynatacak bir şey vermedin.!")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
-        await message.reply_text(f"**{bn} :-** 😉 Sıraya Alındı. Sırası= #{await callsmusic.queues.put(message.chat.id, file_path=file_path)} !")
+        await message.reply_text(f"**{bn} :-** 🎵 Sıraya Alındı. Sırası= #{await callsmusic.queues.put(message.chat.id, file_path=file_path)} !")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-        await message.reply_text(f"**{bn} :-** 🥳 Oynatılıyor...")
+        await message.reply_text(f"**{bn} :-** ✅ Oynatılıyor...")
