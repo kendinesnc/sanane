@@ -8,7 +8,7 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Ben **{bn}** !!
+        f"""Merhaba Ben **{bn}** !!
 Grubunuzun sesli sohbetinde müzik çalabilrim 😉
 Şu anda desteklediğim komutlar şunlardır:
 🍀 /o - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı üzerinden çalar.__
@@ -22,10 +22,10 @@ Grubunuzun sesli sohbetinde müzik çalabilrim 😉
             [
                 [
                     InlineKeyboardButton(
-                        "Sahip 💬", url="https://t.me/Azerbesk"
+                        "🇹🇷 Gruba Ekle", url="https://t.me/NetdVoicebot?startgroup=true"
                     ),
                     InlineKeyboardButton(
-                        "Kanal 📣", url="https://t.me/KaybedenlerOrkestrasi"
+                        "Kanal 📣", url="https://t.me/NetdBots"
                     )
                 ]
             ]
